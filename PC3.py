@@ -88,8 +88,8 @@ if selected == 'Inicio':
     Soy Ana Lucia Ibañez Rodriguez, estudiante de quinto ciclo en la PUCP. 
     Soy de Lima, actualmente me encuentro en el distrito de Los Olivos. 
     Estudió Comunicación Audiovisual, 
-   todo lo relacionado a creación de contenido me llama la atención, en está carrera tenemos que siempre estar en constante investigación para lograr comunicar a la audiencia un mensaje.
-Futura Community manager,publicista, ilustradora, creadora de contenido y animadora digital. 
+    todo lo relacionado a creación de contenido me llama la atención, en está carrera tenemos que siempre estar en constante investigación para lograr comunicar a la audiencia un mensaje.
+    Futura Community manager,publicista, ilustradora, creadora de contenido y animadora digital. 
     Tengo varios hobbies! Me gustan los deportes (basketball y voléy), toco algunos instrumentos (piano y guitarra) y me gusta dibujar 
     """
 
@@ -100,7 +100,7 @@ Futura Community manager,publicista, ilustradora, creadora de contenido y animad
     # unsafe_allow_html=True permite que Streamlit interprete las etiquetas HTML incluidas en la cadena
 
 elif selected == 'Experiencia':
-    st.markdown("<h1 style='text-align: center;'>Nombre a la sección de experiencia 💻</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'> Mi experiencia programando 💻</h1>", unsafe_allow_html=True)
 
     # Agregar un  texto para la respuesta
     texto_2 = """
@@ -118,23 +118,23 @@ elif selected == 'Experiencia':
     # Formato A
     # Agregamos todo los videos realizados en las prácticas anteriores
     # Muestra un subtítulo para identificar el contenido del video
-    st.subheader("🎥 Video 1 - YouTube")
+    #st.subheader("🎥 Video 1 - YouTube")
     # Inserta un video de YouTube directamente en la aplicación.
     # El usuario puede reproducirlo sin salir de Streamlit.
-    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
+    #st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
     # Agrega una breve descripción del video.
-    st.caption(
-        "En este video se presenta ...., "
-    )
+    #st.caption(
+    #   "En este video se presenta ...., "
+    #)
 
     # Formato B
     # Muestra un subtítulo para identificar el contenido del video
-    st.subheader("🎥 Video 1 - Google Drive")
+    st.subheader("🎥 Video 1 - Canva")
     # Crea un botón que redirige al usuario a un video alojado en Google Drive. 
     # Al hacer clic, el video se abrirá en una nueva pestaña del navegador.
     st.link_button(
             "Ver video",
-            "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link"
+            "https://canva.link/rbkg3dluhxar8d9"
         )
     # Agrega una breve descripción del video.
     st.caption(
