@@ -129,7 +129,21 @@ elif selected == 'Experiencia':
 
     # Formato B
     # Muestra un subtítulo para identificar el contenido del video
-    st.subheader("🎥 Video 1 - Canva")
+    st.subheader("🎥 Video 1 - Diferencias entre strings y listas ")
+    # Crea un botón que redirige al usuario a un video alojado en Google Drive. 
+    # Al hacer clic, el video se abrirá en una nueva pestaña del navegador.
+    st.link_button(
+            "Ver video",
+            "https://canva.link/hpbib9zh7qu3t0d"
+        )
+    # Agrega una breve descripción del video.
+    st.caption(
+        "En este video se presenta una explicación detallada de como se definen los strings y las listas, sus funciones y diferencias al usarlos en los codigos de colab"
+    )
+   
+   # Formato B
+    # Muestra un subtítulo para identificar el contenido del video
+    st.subheader("🎥 Video 2 - Diferencias entre los bucles for y while ")
     # Crea un botón que redirige al usuario a un video alojado en Google Drive. 
     # Al hacer clic, el video se abrirá en una nueva pestaña del navegador.
     st.link_button(
@@ -138,7 +152,21 @@ elif selected == 'Experiencia':
         )
     # Agrega una breve descripción del video.
     st.caption(
-        "En este video se presenta ...., "
+        "En el segundo video explicó las diferencias entre los bucles for y while con diversos ejemplos, ambos ayudan a controlar los bucles dependiendo el codigo"
+    )
+
+# Formato B
+    # Muestra un subtítulo para identificar el contenido del video
+    st.subheader("🎥 Video 3 - Lucidulzura ")
+    # Crea un botón que redirige al usuario a un video alojado en Google Drive. 
+    # Al hacer clic, el video se abrirá en una nueva pestaña del navegador.
+    st.link_button(
+            "Ver video",
+            "https://canva.link/sekfxj7b57e9oaf"
+        )
+    # Agrega una breve descripción del video.
+    st.caption(
+        "Este trabajo se relaciona con mi última actividad del curso, me énfoco en explicar la intención de mi blog y el motivo por el que es necesario su creación"
     )
 
 elif selected == 'Gráficos':
