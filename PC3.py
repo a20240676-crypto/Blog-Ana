@@ -104,12 +104,12 @@ elif selected == 'Experiencia':
 
     # Agregar un  texto para la respuesta
     texto_2 = """
-    Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio?, 
-    ¿Qué te ha enseñado la programación?, 
-    ¿Qué te gusta de programar?, 
-    ¿Qué te gustaría hacer con la programación en el futuro?
-    ¿Cómo se relaciona lo que haz aprendido con tu carrera?
+    Aprendí diferentes comandos de programación que antes no sabia manejar bien, comprendo que la programación es compleja porque al más minimo error tu trabajo puede no poder ejecutarse corractamente. 
+    Al inicio estaba nerviosa porque no conocia demasiado de programación, 
+    Es necesario ser bastante ordenado para que tus codigos y la información que con la que desees trabajar sea un proceso rápido, 
+    Me gusta visualizar que cada codigo tiene una función y nos permite previsualizar lo que estamos creando, 
+    Me gustaria seguir aprendiendo y desarrollar trabajos más complejos, conseguí encontrarle el gusto.
+    Este trabajo es útil para cualquier carrera de comunicaciones porque la programación te permite conocer el funcionamiento del entorno digital y facilita la comprensión de los sitios wed o aplicaciones.
     """
 
     # Mostramos el texto
