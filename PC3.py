@@ -142,7 +142,7 @@ elif selected == 'Experiencia':
     )
 
 elif selected == 'Gráficos':
-    st.markdown("<h2 style='text-align: center;'>Nombre a la sección 'Gráficos'</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Gráficos vistos en el curso</h2>", unsafe_allow_html=True)
 
     graficos = ['Gráfico_1', 'Gráfico_2', 'Mapa_1']
 
@@ -151,7 +151,7 @@ elif selected == 'Gráficos':
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico_1':
         # Título de la sección
-        st.subheader("📊 Gráfico 1: Lenguas aisladas")
+        st.subheader("📊 Gráfico 1: Nube de palabras")
 
         # Interpretación del gráfico
         st.markdown(
@@ -174,7 +174,7 @@ elif selected == 'Gráficos':
 
     elif grafico_seleccionado == 'Gráfico_2':
         # Título de la sección
-        st.subheader("📊 Gráfico 2: Familias lingüísticas")
+        st.subheader("📊 Gráfico 2: Histograma de goles")
 
         # Interpretación del gráfico
         st.markdown(
@@ -191,12 +191,12 @@ elif selected == 'Gráficos':
 
         with col7:
             st.image(
-                "lengua_familia_GB.png",
+                "histograma.png",
                 width=800
             )
     elif grafico_seleccionado == 'Mapa_1':
         # Título de la sección
-        st.subheader("🗺️ Mapa 1: Distribución geográfica")
+        st.subheader("🗺️ Mapa 1: Top 5 de mis peliculas favoritas")
 
         # Interpretación del mapa
         st.markdown(
@@ -209,7 +209,7 @@ elif selected == 'Gráficos':
         )
 
         # Cargar el mapa HTML generado previamente
-        with open("mapa.html", "r", encoding="utf-8") as f:
+        with open("mapaPC3.html", "r", encoding="utf-8") as f:
             html_content = f.read()
 
         # Mostrar el mapa interactivo
