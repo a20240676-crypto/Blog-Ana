@@ -185,7 +185,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-          A través de la descarga del documento "harry_potter_1.txt", extraimos la mayor cantidad de veces que aparece cada palabra de la lista y elaboramos una nube de palabras con oraciones relacionadas con la saga de la película
+          A través de la descarga del documento "harry_potter_1.txt", extraimos la mayor cantidad de veces que aparece cada palabra de la lista y elaboramos una nube de palabras con oraciones relacionadas con la saga de la película.
             </div>
             """,
             unsafe_allow_html=True
