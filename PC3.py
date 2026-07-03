@@ -185,7 +185,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-            Aquí debe ir una breve interpretación de tu gráfico.
+          A través de la descarga del documento "harry_potter_1.txt", elaboramos una nube de palabras con oraciones relacionadas con la saga de la película
             </div>
             """,
             unsafe_allow_html=True
@@ -208,7 +208,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del gráfico.
+            En el histograma se presentan la cantidad de goles que realizo el Real Madrid como visitante y local. Además, tenemos la información de los goles recibidos para hacer una comparación más completa.
             </div>
             """,
             unsafe_allow_html=True
@@ -230,7 +230,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-              El mapa muestra el país donde se realizaron mis 5 pe
+              El mapa muestran los paises donde se realizaron mis 5 peliculas favoritas; para elaborarlo primero realice un diccionario señalando el año, director, género, duración, país, longitud y latitud. Luego instale una libreria para crear mapas interactivos y para culminar mi trabajo e identificar los lugares, añadi marcadores.
             </div>
             """,
             unsafe_allow_html=True
