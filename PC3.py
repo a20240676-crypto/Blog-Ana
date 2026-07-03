@@ -138,7 +138,7 @@ elif selected == 'Experiencia':
         )
     # Agrega una breve descripción del video.
     st.caption(
-        "En este video se presenta una explicación detallada de como se definen los strings y las listas, sus funciones y diferencias al usarlos en los codigos de colab"
+        "En este video se presenta una explicación detallada de como se definen los strings y las listas, sus funciones y diferencias al usarlos en los codigos de colab. También se presentan diferentes ejemplos para determinar las situaciones donde más recomendable usar estos codigos."
     )
    
    # Formato B
@@ -152,7 +152,7 @@ elif selected == 'Experiencia':
         )
     # Agrega una breve descripción del video.
     st.caption(
-        "En el segundo video explicó las diferencias entre los bucles for y while con diversos ejemplos, ambos ayudan a controlar los bucles dependiendo el codigo"
+        "En el segundo video explicó las diferencias entre los bucles for y while con diversos ejemplos, ambos ayudan a controlar los bucles dependiendo la función. "
     )
 
 # Formato B
@@ -166,7 +166,7 @@ elif selected == 'Experiencia':
         )
     # Agrega una breve descripción del video.
     st.caption(
-        "Este trabajo se relaciona con mi última actividad del curso, me énfoco en explicar la intención de mi blog y el motivo por el que es necesario su creación"
+        "Este trabajo se relaciona con mi última actividad del curso, me énfoco en explicar la intención de mi blog y el motivo por el que es necesario su creación. Además especifico el contenido que tendra y como ayudara a diferentes usuarios."
     )
 
 elif selected == 'Gráficos':
@@ -185,7 +185,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 20px;'>
-          A través de la descarga del documento "harry_potter_1.txt", elaboramos una nube de palabras con oraciones relacionadas con la saga de la película
+          A través de la descarga del documento "harry_potter_1.txt", extraimos la mayor cantidad de veces que aparece cada palabra de la lista y elaboramos una nube de palabras con oraciones relacionadas con la saga de la película
             </div>
             """,
             unsafe_allow_html=True
