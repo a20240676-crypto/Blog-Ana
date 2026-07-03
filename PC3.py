@@ -196,7 +196,7 @@ elif selected == 'Gráficos':
 
         with col4:
             st.image(
-                "aisladas_base_datos.png",
+                "nube_de_palabras.png",
                 width=800
             )
 
@@ -230,7 +230,7 @@ elif selected == 'Gráficos':
         st.markdown(
             """
             <div style='text-align: justify; font-size: 18px;'>
-            Aquí debe ir una breve interpretación del mapa.
+              El mapa muestra el país donde se realizaron mis 5 pe
             </div>
             """,
             unsafe_allow_html=True
